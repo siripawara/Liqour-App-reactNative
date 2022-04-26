@@ -35,8 +35,9 @@ const startupPageTabs = () =>{
           tabBarActiveTintColor: 'tomato',
           tabBarInactiveTintColor: 'grey',
         })}
+        styles={{backgroundColor:'blue'}}
       >
-      <Tab.Screen name="login" component={LoginScreen}/>
+      <Tab.Screen  name="login" component={LoginScreen}/>
       <Tab.Screen name="registration" component={registrationScreen} />
     </Tab.Navigator>
   )
